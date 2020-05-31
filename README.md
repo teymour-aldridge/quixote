@@ -19,4 +19,12 @@ Yes! The roadmap is currently:
 
     - Build an SQL model to represent Rust programs
 
-    - Add code to load parsed output into a database.
+    - Insert the parsed output into a database.
+
+    - Write some "default" scripts to provide a pluggable analytics solution.
+
+If you'd like to contribute, please open an issue.
+
+## What databases are supported?
+
+The intention is to support both SQLite and Postgres (useful for really big code bases).
